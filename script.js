@@ -1,13 +1,4 @@
 
-
-function autoclicker() {
-        var x = document.getElementById("autoclicker");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
-      }
  
 function spammer() {
         var x = document.getElementById("spammer");
@@ -47,6 +38,15 @@ function ltsm() {
 
 function ok_l() {
         var x = document.getElementById("ok_l");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+
+function oce() {
+        var x = document.getElementById("oce");
         if (x.style.display === "block") {
           x.style.display = "none";
         } else {
