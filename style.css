@@ -34,9 +34,6 @@ color: pink;
 .scripts{
 margin-right: 1800px;
 }
-.hd{
-  display:none;
-}
 .sr3{
 color: green;
 }
@@ -50,4 +47,16 @@ button:hover{
 }
 a:hover{
   color:red;
+}
+
+.animated-element {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease; 
+}
+
+.animated-element.visible {
+    max-height: 1000px; 
+    opacity: 1;
 }
